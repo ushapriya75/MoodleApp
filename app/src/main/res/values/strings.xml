@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MoodleApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="subject_list">Subject List</string>
+    <string name="course_list">Course List</string>
+    <string name="timetable">TimeTable</string>
+    <string name="events">Events</string>
+    <string name="forms">Forms</string>
+    <string name="gallary">Gallery</string>
+    <string name="notifications">Notifications</string>
+    <string name="grades">Grades</string>
+    <string name="name">Name</string>
+    <string name="student_id">Student Id</string>
+    <string name="email_id">Email Id</string>
+    <string name="course">Course</string>
+    <string name="year">Year</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="logout_text">Logout</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="incorrect_cred_error_msg">Incorrect Student ID or password</string>
+    <string name="login_signup">Login/SignUp</string>
+    <string name="about1">Welcome to moodle app</string>
+    <string name="about2">Here students and visitors can access the details of the information about the college, news, events and the respective information.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="courselist">Business  \nComputing and Multimedia  \nHealthcare support  \nChildcare course</string>
+    <string name="home">Home</string>
+    <string name="submit">Submit</string>
+    <string name="request">Request</string>
+    <string name="form_saved_msg">Form send successfully.</string>
+    <string name="new_registration_mail_subject">New Registration Request</string>
+    <string name="reg_req_mail_body_text">Your new registration request has been sent to the college admin.</string>
+    <string name="form_reg_mail_body">Your request for %1$s has been received.</string>
+
+    <string name="collage_admin_email">collegeadmin@gmail.com</string>
+</resources>

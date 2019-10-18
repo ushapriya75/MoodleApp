@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/light_blue</color>
+    <color name="colorPrimaryDark">@color/blue</color>
+    <color name="colorAccent">#1954E9</color>
+    <color name="light_blue">#6289ff</color>
+    <color name="blue">#3b6cff</color>
+    <color name="background">#EBEBEB</color>
+    <color name="logoutButton">#F07171</color>
+    <color name="aboutTextColor">#FF9800</color>
+</resources>

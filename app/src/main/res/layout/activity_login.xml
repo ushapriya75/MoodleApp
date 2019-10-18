@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/collage_pic"
+            android:background="@drawable/background_gradient" >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:id="@+id/layoutInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_white"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556">
+
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/inputTextLayoutStyle">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/inputTextStyle"
+                android:id="@+id/username_edittext_login"
+                android:hint="@string/student_id" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/inputTextLayoutStyle"
+            app:passwordToggleEnabled="true">
+
+            <android.support.design.widget.TextInputEditText
+                style="@style/inputTextStyle"
+                android:id="@+id/password_edittext_login"
+                android:hint="@string/password"
+
+                android:inputType="textPassword"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rec_gradient"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:onClick="loginHandling"
+            android:textColor="#FFF" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:id="@+id/signup_textview"
+            android:onClick="signUp"
+            android:layout_height="wrap_content"
+            android:text="@string/don_t_have_an_account_sign_up"
+            android:textColor="@color/blue"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
